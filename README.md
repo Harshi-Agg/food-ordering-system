@@ -1,8 +1,10 @@
 # food-ordering-system
 A real-life web application food ordering system, that will be used by real users.
+
 Technologies: 
 a) Front-end in HTML/CSS/JS.  
 b) Backend in core PHP. MySQL as the database.
+
 Functionalities:
 'Registration’ pages - Different registration pages for Restaurants & Customers. Capture customer’s preferences (veg/non-veg) during registration.
 ‘Login’ pages - Single/different login pages for restaurants & customers. 
