@@ -1,0 +1,39 @@
+/* This code takes items or menu inputs from restaurant registered*/
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Items</title>
+    <link rel="stylesheet" href="items.css" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="header">
+        <h1>Add Menu Items</h1>
+        <a href="index.php"><h1 style="float: right;">HOME</h1></a>
+      </div>
+      <div class="items">
+        <div class="item">
+          <form method="POST" class="add" action="add.php">
+            <label>Restaurant name </label>
+            <input name=" name" type="text" /> <br />
+            <br />
+            <label>Item Name</label> <input name="item" type="text" /><br />
+            <br />
+            <label>Item Description</label>
+            <input name="desc" type="text" /><br />
+            <br />
+            <label>Item Price</label> <input name="price" type="number" /><br />
+            <br />
+            <input id="submit" name="submit" type="submit" />
+          </form>
+        </div>
+        <div class="footer">
+          <p>Enter Your Restaurant Food Details Here !</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

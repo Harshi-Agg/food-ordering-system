@@ -1,0 +1,63 @@
+/* This code takes customer registration input*/
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Customer</title>
+    <link rel="stylesheet" href="registration.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="Cheader">
+      <h1>FOODSHALA</h1>
+      <p>Welcome To The 24/7 Food Service</p>
+    </div>
+    <div class="maincontainer">
+      <div class="header">
+        <a href="index.php"><h1>HOME</h1></a>
+      </div>
+      <div class="left">
+        <div class="innercontent">
+          <h1>Registration for customers</h1>
+          <form
+            class="register"
+            name="userReg"
+            method="POST"
+            action="customer.php"
+          >
+            <label>NAME</label>
+            <input type="text" name="username" /><br /><br />
+            <label>EMAIL_ID</label>
+            <input type="tel" name="email" /><br /><br />
+            <label>PHONE NO.</label>
+            <input type="text" name="phone" /><br /><br />
+            <label>ADDRESS</label>
+            <input type="text" name="address" /><br /><br />
+            <label>CHOOSE FOOD TYPE</label><br /><br />
+            <input type="radio" id="veg" name="foodtype" value="Veg" />
+            <label for="veg">Vegetarian</label><br />
+            <input type="radio" id="nonveg" name="foodtype" value="NonVeg" />
+            <label for="nonveg">Non-Vegetarian</label><br /><br />
+
+            <label>PASSWORD</label>
+            <input type="password" name="password" /><br /><br />
+            <input class="regbtn" name="submit" type="submit" />
+          </form>
+        </div>
+      </div>
+      <div class="right">
+        <div class="innercontent">
+          <img
+            id="rytimg"
+            src="https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/320/320932/processed-foods-on-table.jpg?w=1155&h=1541"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
